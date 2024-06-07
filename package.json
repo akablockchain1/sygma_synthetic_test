@@ -1,0 +1,18 @@
+{
+  "name": "token-transfer-test",
+  "version": "1.0.0",
+  "description": "ERC-20 token transfer test using Web3 and Mocha",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --timeout 50000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "web3": "^1.8.1"
+  }
+}
