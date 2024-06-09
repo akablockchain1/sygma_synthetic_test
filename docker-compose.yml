@@ -1,0 +1,13 @@
+version: '3'
+services:
+  app:
+    image: akablockchain1/sygma_synthetic_test:0.1
+    environment:
+      INFURA_URL: ${INFURA_URL}
+      ALICE_ADDRESS: ${ALICE_ADDRESS}
+      ALICE_PRIVATE_KEY: ${ALICE_PRIVATE_KEY}
+      BOB_ADDRESS: ${BOB_ADDRESS}
+      BOB_PRIVATE_KEY: ${BOB_PRIVATE_KEY}
+      TOKEN_CONTRACT_ADDRESS: ${TOKEN_CONTRACT_ADDRESS}
+    ports:
+      - "3000:3000"

@@ -12,7 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.7",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
     "mocha": "^10.2.0",
+    "node-cron": "^3.0.3",
     "web3": "^1.8.1"
   }
 }
